@@ -1,0 +1,115 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.cashwithdrawal-card {
+  background-color: #150b3e;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.letter {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.white-color-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #d4d2db;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-balance-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #585076;
+}
+
+.amount {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #d4d2db;
+}
+
+.violet-color-text {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+  color: #585076;
+}
+
+.denominations-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 40px 0px;
+  }
+
+  .cashwithdrawal-card {
+    width: 55%;
+    padding: 30px;
+  }
+
+  .letter {
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-right: 20px;
+  }
+
+  .white-color-text {
+    font-size: 24px;
+  }
+
+  .your-balance-text {
+    font-size: 24px;
+  }
+
+  .amount {
+    font-size: 28px;
+  }
+
+  .violet-color-text {
+    font-size: 20px;
+  }
+}
+
